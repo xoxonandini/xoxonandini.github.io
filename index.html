@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nandini Portfolio</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Nandini's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first">
+            <div class="leftSection">
+                Hi, My name is <span class="purple"> Nandini</span>
+                <div>and I am a </div>
+                <span id="element"></span>
+                <div class="buttons"></div>
+                <a href="nandini1 resume(1).pdf" class="btn" download>Download Resume</a>
+                <a href="https://www.linkedin.com/in/nandini-gupta-5813412a9/" class="btn" target="_blank">LinkedIn</a>
+            </div>
+            <div class="rightSection">s
+                <img src="pic.jpg" alt="" class="circle-photo">
+            </div> 
+        </section>
+        <hr>
+        <section id="education" class="sectionContainer education">
+            <h1>Education</h1>
+            <div class="education-content">
+                <p>I passed my 10th grade with 97% and 12th grade with 90%. Currently, I'm pursuing a degree in Computer Science and Engineering with a focus on Cybersecurity at Manipal Institute of Technology.</p>
+                <p>While working on a college project, I found myself drawn to web development. This sparked my interest and motivated me to learn more about it.</p>
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <section id="skills" class="sectionContainer skills">
+                <h1>Skills</h1>
+                <div class="skill-list">             
+                    <div class="skill-item">HTML</div>
+                    <div class="skill-item">CSS</div>
+                    <div class="skill-item">JavaScript</div>
+                    <div class="skill-item">React</div>
+                    <div class="skill-item">Python</div>
+                    <div class="skill-item">Java</div>
+                    <div class="skill-item">SQL</div>
+                    <div class="skill-item">Bootstrap</div>
+                </div>
+            </section>       
+        </section>
+        <hr>    
+        <section id="experience" class="sectionContainer volunteer-experience">
+            <h1>Experience</h1>
+            <div class="experience-list">
+                <div class="experience-item">
+                    <h2>HR Head, Tech Solstice</h2>
+                    <p>College Tech Fest</p>
+                    <ul>
+                        <li>Successfully led a team of 12 volunteers, coordinating efforts to ensure a smooth and engaging event.</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <h2>Committee Member, Falak</h2>
+                    <p>Cultural Fest</p>
+                    <ul>
+                        <li>Played a key role in executing various cultural activities and events.</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <h2>Volunteer, Volunteer Service Organization (VSO)</h2>    
+                    <ul>
+                        <li>Helped distribute food to villagers, contributing to community support and nourishment efforts.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+        <section id="projects" class="sectionContainer projects">
+            <h1>Projects</h1>
+            <div class="project-list">
+                <div class="project-item">
+                    <h2>Travel Management System</h2>
+                    <p>A platform to book travel packages, flights, hotels, and more, simplifying the booking process and providing a seamless user experience for efficient travel planning.</p>
+                </div>
+                <div class="project-item">
+                    <h2>Supermarket Billing System</h2>
+                    <p>The project aims to integrate barcode scanning technology for rapid item identification and checkout. This feature enhances transaction speed and accuracy, improving overall customer satisfaction and operational efficiency.</p>
+                </div>
+                <div class="project-item">
+                    <h2>Textutils-Text Analyser</h2>
+                    <p>Website using React, HTML, CSS, and JavaScript which helps users to analyze their text quickly and efficiently.</p>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section id="contact" class="sectionContainer contact">
+            <h1>Contact Me</h1>
+            <form class="contact-form" action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>      
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer'],
+          typeSpeed: 50,
+        });
+    </script>
+</body>
+</html>

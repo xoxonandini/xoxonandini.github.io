@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0,0,33);
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(18,18,62);
+    height: 80px;
+    align-items: center;
+
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px
+}
+nav ul li a{
+    text-decoration:none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(153 153 226);
+    font-size: 1.01rem;
+}
+main hr{
+    border:0;
+    background:#9c97f1;
+    height: 1.2px;
+    margin:60px 84px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;      
+}
+.left{
+    font-size:1.5rem;
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:70px 0;
+}
+.first> div{
+    width: 30%;
+}
+.leftSection {
+    font-size:2.5rem;
+
+}
+.leftSection .btn{
+    padding: 12px;
+}
+
+.rightSection img{
+    width: 80%;
+    margin: 50px 0;
+}
+.purple{
+    color: blueviolet;
+}
+#element{
+    color: blueviolet;
+}
+.secondSection{
+    max-width:80vw;
+    margin:auto;
+}
+.secondSection h1{
+    font-size: 1.9rem;
+
+}
+.sectionContainer {
+    max-width: 80vw;
+    margin: auto;
+    text-align: center;
+}
+
+.sectionContainer h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: white;
+}
+.skills {
+    margin: 60px 0;
+    padding-bottom: 100px;  
+}
+
+.skill-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.skill-item {
+    background-color: rgb(18,18,62);
+    padding: 20px;
+    width: 200px;
+    border-radius: 8px;
+    color: blueviolet;
+    font-size: 1.1rem;
+    transition: transform 0.3s;
+}
+
+.skill-item:hover {
+    transform: scale(1.05);
+    background-color: blueviolet;
+}
+
+
+.circle-photo {
+    width: 150px;         
+    height: 300px;        
+    border-radius: 50%;   
+    object-fit: cover;   
+}
+
+.education {
+    margin: 60px auto;
+    padding-bottom: 80px; 
+    text-align: center; 
+    max-width: 1200px;
+}
+
+.education h1 {
+    font-size: 2.5rem; 
+    margin-bottom: 40px; 
+    color: white; 
+}
+
+.education-content {
+    max-width: 80%;
+    margin: auto; 
+    font-size: 1.5rem; 
+    line-height: 1.8; 
+    text-align: left;
+    padding: 0 20px; 
+    padding-left: 60px; 
+}
+
+.education-content p {
+    margin-bottom: 30px; 
+}
+
+
+.volunteer-experience {
+    padding-bottom: 80px; 
+    text-align: center; 
+    max-width: 1200px;
+}
+
+.volunteer-experience h1 {
+    font-size: 2rem; 
+    margin-bottom: 20px; 
+    color: white; 
+}
+
+.experience-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 30px; 
+}
+
+.experience-item {
+    background-color: rgb(18, 18, 62); 
+    padding: 30px; 
+    width: 80%; 
+    max-width: 800px; 
+    border-radius: 8px; 
+    color: white; 
+    text-align: left; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.experience-item h2 {
+    font-size: 1.5rem; 
+    color: blueviolet; 
+}
+
+.experience-item p {
+    font-size: 1rem;
+    color: #cfcfcf; 
+    margin: 5px 0; 
+}
+
+.experience-item ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.experience-item li {
+    font-size: 0.95rem;
+    color: #e0e0e0; 
+    margin: 5px 0; 
+}
+
+.projects {
+    margin: 60px auto; 
+    padding-bottom: 80px; 
+    text-align: center; 
+    max-width: 1200px;
+}
+
+.projects h1 {
+    font-size: 2.5rem; 
+    margin-bottom: 40px; 
+    color: white; 
+}
+.project-list {
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 30px; /* Space between project items */
+    padding: 0 20px; /* Horizontal padding */
+}
+
+.project-item {
+    background-color: rgb(30, 30, 75); /* Darker background color */
+    padding: 20px; /* Padding for the item */
+    border-radius: 12px; /* Rounded corners */
+    color: white; /* Text color */
+    text-align: left; /* Left align text */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+    transition: transform 0.3s, box-shadow 0.3s; /* Transition for hover effect */
+}
+
+.project-item:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5); /* More prominent shadow on hover */
+}
+
+.project-item h2 {
+    font-size: 1.8rem; 
+    color: blueviolet; /* Subheading color */
+    margin-bottom: 10px; /* Space below the subheading */
+}
+
+.project-item p {
+    font-size: 1rem; /* Paragraph font size */
+    color: #dcdcdc; /* Light gray for description */
+    margin: 10px 0; /* Margin for spacing */
+}
+
+.project-item a {
+    text-decoration: none; /* Remove underline from links */
+    color: blueviolet; /* Link color */
+    font-weight: bold; /* Bold link text */
+    border: 2px solid blueviolet; /* Border for the button */
+    padding: 8px 12px; /* Padding for the button */
+    border-radius: 6px; /* Rounded corners for the button */
+    transition: background-color 0.3s, color 0.3s; /* Transition for hover effect */
+}
+
+.project-item a:hover {
+    background-color: blueviolet; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+}
+.contact {
+    margin: 60px auto; /* Centering the section */
+    padding: 60px; /* Padding around the form */
+    text-align: center; /* Center align text */
+    max-width: 900px; /* Limit maximum width */
+    background-color: rgb(18, 18, 62); /* Background color for the form */
+    border-radius: 8px; /* Rounded corners */
+    color: white; /* Text color */
+    min-height: 500px;
+}
+
+.contact h1 {
+    font-size: 2rem; /* Heading font size */
+    margin-bottom: 20px; /* Space below the heading */
+    color: white; /* Heading color */
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column; /* Stack fields vertically */
+    gap: 15px; /* Space between fields */
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column; /* Stack label and input */
+}
+
+label {
+    margin-bottom: 5px; /* Space between label and input */
+    font-size: 1rem; /* Label font size */
+    color: white; /* Label color */
+}
+
+input, textarea {
+    padding: 10px; /* Padding inside inputs */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    background-color: rgb(60, 60, 80); /* Input background color */
+    color: white; /* Input text color */
+    font-size: 1rem; /* Input font size */
+}
+
+input:focus, textarea:focus {
+    outline: none; /* Remove outline */
+    background-color: rgb(80, 80, 100); /* Darker background on focus */
+}
+.btn {
+    display: inline-block;
+    padding: 8px 15px; /* Adjust padding as needed */
+    background-color: blueviolet; /* Button color */
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+    margin: 5px; /* Space between buttons */
+    font-size:14px;
+}
+.btn:hover {
+    background-color: rgb(120, 120, 180); /* Darker shade on hover */
+}
